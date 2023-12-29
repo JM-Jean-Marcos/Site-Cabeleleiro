@@ -1,0 +1,26 @@
+@mixin container
+    display: flex
+    flex-direction: row
+    margin: auto
+    padding: 1rem
+    max-width: 1150px
+
+@mixin midia1 
+    @media(max-width: 1040px)
+        @content
+
+@mixin midia2
+    @media(max-width: 800px)
+        @content
+
+@mixin midia3
+    @media(max-width: 500px)
+        @content
+        
+@mixin midia4
+    @media(max-width: 400px)
+        @content
+        
+        
+    
+    
